@@ -34,14 +34,14 @@ Dawn News is grappling with the challenge of enhancing user experience and engag
 This report introduces a system developed for Dawn News, simplifying article discovery in today's information overload. Using Flask, NLTK, and Whoosh, it offers an intuitive platform for effortless news search and filtering. While not officially affiliated, it mirrors real-world scenarios, showcasing tech's role in user engagement. Exploring its architecture, text processing, search capabilities, and performance, the report demonstrates how this system redefines Dawn News interaction, revolutionizing the article discovery experience.
 
 # Tool & Technologies
-• Flask: A Python-based web framework used to create Dawn News' user interface, facilitating seamless navigation and search functionalities for readers.
-• NLTK (Natural Language Toolkit): An essential Python library for natural language processing, employed to organize and retrieve news articles based on user queries, ensuring precise and relevant search results.
-• Whoosh: A Python library for full-text indexing and searching, enhancing the speed and accuracy of information retrieval by swiftly sorting news articles in response to user queries.
-• HTML & CSS: Front-end technologies used to structure and style the user interface of Dawn News, ensuring an appealing and intuitive browsing experience for readers.
-• Parallelism: Implemented through Python's threading capabilities, facilitating concurrent processing while indexing multiple articles, enhancing the system's efficiency in handling large datasets.
-• Synchronization: Utilized synchronization mechanisms to ensure thread safety, enabling coordinated access and modification of shared resources during the indexing process.
-• Visual Studio Code (VS Code): The integrated development environment used for coding and managing the project, providing a conducive workspace for development tasks.
-• GitHub: The platform utilized for version control and collaborative development, facilitating project sharing and storage of the project's codebase.
+• Flask <br>
+• NLTK  <br>
+• Whoosh  <br>
+• HTML & CSS  <br>
+• Parallelism  <br>
+• Synchronization  <br>
+• Visual Studio Code (VS Code)  <br>
+• GitHub: 
 
 # Architecture 
 
