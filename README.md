@@ -41,7 +41,10 @@ This report introduces a system developed for Dawn News, simplifying article dis
 • Parallelism  <br>
 • Synchronization  <br>
 • Visual Studio Code (VS Code)  <br>
-• GitHub: 
+• GitHub:
+
+# DataSet
+link:
 
 # Architecture 
 
@@ -73,6 +76,43 @@ system adeptly navigates extensive content repositories. Future iterations and e
 this system promise continued advancements in delivering a tailored and engaging browsing
 experience, further solidifying its role in streamlining information retrieval across diverse
 domains.
+# Command
+Create a conda env through
+...
+$ conda env create -f environment.yml
+...
+
+for activation env
+...
+$ conda activate Nlp
+...
+
+for deactivate
+
+...
+$ conda deactivate Nlp
+...
+
+for indexing you can get dataset above link
+for indexing enter code folder and give path where you want to create index_dir
+...
+index_directory = "local_path"
+... 
+run
+...
+python indexing.py
+...
+for searching go to /Nlp_project/app
+...
+python app.py
+...
+make sure change your local path in index_dir
+
+
+
+
+
+
 
 
 
