@@ -64,7 +64,17 @@ Result Presentation: Displaying retrieved documents in varied formats like ranke
 ![image](https://github.com/HamzaGhfran/NLP_Project/assets/114594956/7cb92266-a0ef-4b94-83e6-e2726399a02f)
 
 ![image](https://github.com/HamzaGhfran/NLP_Project/assets/114594956/3a566562-a929-4485-89b6-06d66463d469)
+# Conclusions
 
+The fusion of Flask, NLTK, Whoosh, HTML, CSS, and Python's parallelism and
+synchronization techniques has crafted an effective and user-centric information retrieval
+system. This collaborative integration of diverse technologies has facilitated seamless access to
+a plethora of articles and top stories through an intuitive user interface. Leveraging natural
+language processing and full-text indexing capabilities, alongside a well-crafted interface, the
+system adeptly navigates extensive content repositories. Future iterations and enhancements to
+this system promise continued advancements in delivering a tailored and engaging browsing
+experience, further solidifying its role in streamlining information retrieval across diverse
+domains.
 
 # Command
 Create a conda env through <br>
