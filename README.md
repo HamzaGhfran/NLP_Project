@@ -77,35 +77,35 @@ this system promise continued advancements in delivering a tailored and engaging
 experience, further solidifying its role in streamlining information retrieval across diverse
 domains.
 # Command
-Create a conda env through
-...
-$ conda env create -f environment.yml
-...
+Create a conda env through <br>
+...<br>
+$ conda env create -f environment.yml<br>
+...<br>
+<br>
+for activation env<br>
+...<br>
+$ conda activate Nlp<br>
+...<br>
 
-for activation env
-...
-$ conda activate Nlp
-...
+for deactivate<br>
 
-for deactivate
+... <br>
+$ conda deactivate Nlp<br>
+...<br>
 
-...
-$ conda deactivate Nlp
-...
-
-for indexing you can get dataset above link
-for indexing enter code folder and give path where you want to create index_dir
-...
-index_directory = "local_path"
-... 
-run
-...
-python indexing.py
-...
-for searching go to /Nlp_project/app
-...
-python app.py
-...
+for indexing you can get dataset above link<br>
+for indexing enter code folder and give path where you want to create index_dir<br>
+...<br>
+index_directory = "local_path"<br>
+... <br>
+run<br>
+...<br>
+python indexing.py<br>
+...<br>
+for searching go to /Nlp_project/app<br>
+...<br>
+python app.py<br>
+...<br>
 make sure change your local path in index_dir
 
 
