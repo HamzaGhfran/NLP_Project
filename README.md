@@ -51,9 +51,9 @@ information retrieval (IR) −
 ![image](https://github.com/HamzaGhfran/NLP_Project/assets/114594956/b47eda74-cb18-4f55-a9d1-af69e023b010)
 In information retrieval (IR) systems, the process of retrieving relevant information based on user queries involves several steps. Let's delve deeper into the process show in the Diagram.
 
-Query Analysis: Understanding user intent through tokenization, stemming, and stop word removal to normalize and process queries effectively.
-Indexing: Document analysis for important terms and building an index structure to map terms to respective documents for efficient retrieval.
-Document Retrieval: Using processed queries and the index to retrieve potentially relevant documents based on keyword matching and employing algorithms for relevance determination.
+Query Analysis: Understanding user intent through tokenization, stemming, and stop word removal to normalize and process queries effectively. <br>
+Indexing: Document analysis for important terms and building an index structure to map terms to respective documents for efficient retrieval. <br>
+Document Retrieval: Using processed queries and the index to retrieve potentially relevant documents based on keyword matching and employing algorithms for relevance determination. <br>
 Result Presentation: Displaying retrieved documents in varied formats like ranked lists, query term snippets, or document summaries to aid swift information access and identification for users.
 
 # User Interface
