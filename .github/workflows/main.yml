@@ -27,5 +27,13 @@ jobs:
                     pip install -r requirements.txt
             -
                 name: Run App
-                run: app/app.py
+                run: |
+                    cd app
+                    python app.py &
+            -
+                name: Stop app
+                run: |
+                    cd app
+                    pkill -f "python app.py"
+
 
