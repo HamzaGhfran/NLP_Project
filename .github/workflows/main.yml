@@ -34,7 +34,7 @@ jobs:
             -
                 name: Run Tests
                 run: |
-                    pytest -v tests/test_app.py
+                    pytest -v tests/
             -
                 name: Stop app
                 run: |
