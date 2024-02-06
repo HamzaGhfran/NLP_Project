@@ -36,8 +36,8 @@ jobs:
                 run: |
                     pytest -v tests/
             -
-                name: Stop app
-                run: |
-                    cd app
-                    pkill -f "python app.py"
+                # name: Stop app
+                # run: |
+                #     cd app
+                #     pkill -f "python app.py"
             
