@@ -30,10 +30,14 @@ jobs:
                 run: |
                     cd app
                     python app.py &
+                    sleep 5
+            -
+                name: Run Tests
+                run: |
+                    pytest -v tests/test_app.py
             -
                 name: Stop app
                 run: |
                     cd app
                     pkill -f "python app.py"
-
-
+            

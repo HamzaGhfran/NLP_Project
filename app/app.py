@@ -22,7 +22,7 @@ stemmer = PorterStemmer()
 # Function for text summarization using NLTK
 def nltk_summarizer(text):
     words = word_tokenize(text)
-    summary = " ".join(words[:50])  # Join the first 50 words as a summary
+    summary = " ".join(words[:5])  # Join the first 50 words as a summary
     return summary
 
 # Function for text preprocessing
