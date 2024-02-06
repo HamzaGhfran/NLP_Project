@@ -3,7 +3,7 @@ name: Information-Extraction
 on:
     push:
         branches:
-            - feat/HG_Nlp_project
+            - main
 jobs:
     search:
         runs-on: ubuntu-latest
