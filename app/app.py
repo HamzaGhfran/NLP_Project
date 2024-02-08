@@ -35,7 +35,7 @@ def preprocess_text(text):
 # Function for search index
 def search_index(query_text):
     query_text = preprocess_text(query_text)
-    ix = index_module.open_dir("/home/hamza/BSCS/Semester7/NLP/Project/index_dir")  # Replace with your index directory
+    ix = index_module.open_dir("/home/home/hamza/BSCS/Semester7/NLP/Project/index_dir")  # Replace with your index directory
     with ix.searcher() as searcher:
         query_parser = QueryParser("content", ix.schema)
         query = query_parser.parse(query_text)
@@ -65,4 +65,4 @@ def index():
     return render_template('index.html', results=results)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
